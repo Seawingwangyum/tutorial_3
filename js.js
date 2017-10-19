@@ -1,6 +1,6 @@
 var chatStr = "";
 function replaceemojis(){
-    chatStr = chatStr.replace(":)", "<img class = 'emoji' src = 'img/Sheev.gif' />")
+    chatStr = chatStr.replace(":)", "<img class = 'emoji' src = 'img/sheev.gif' />")
     chatStr = chatStr.replace(":(", "<img class = 'emoji' src = 'img/sheev4.jpg' />")
     chatStr = chatStr.replace("sith lord", "the senate")
 }
