@@ -2,7 +2,7 @@ var chatStr = "";
 function replaceemojis(){
     chatStr = chatStr.replace(":)", "<img class = 'emoji' src = 'img/sheev.gif' />")
     chatStr = chatStr.replace(":(", "<img class = 'emoji' src = 'img/sheev4.jpg' />")
-    chatStr = chatStr.replace("sheev", "the senate")
+    chatStr = chatStr.replace("sith lord", "the senate")
 }
 
 /*----------p1chat------*/
