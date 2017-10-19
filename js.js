@@ -1,6 +1,6 @@
 var chatStr = "";
 function replaceemojis(){
-    chatStr = chatStr.replace(":)", "<img class = 'emoji' src = 'img/sheev.gif' />")
+    chatStr = chatStr.replace(":)", "<img class = 'emoji' src = 'img/Sheev.gif' />")
     chatStr = chatStr.replace(":(", "<img class = 'emoji' src = 'img/sheev4.jpg' />")
     chatStr = chatStr.replace("sith lord", "the senate")
 }
@@ -11,7 +11,7 @@ function changechatstr(){
     document.getElementById("p1input").value = "";
     
    /* if(chatStr == ":)"){
-        chatStr = "<img class = 'emoji' src = 'img/sheev.gif' />"
+        chatStr = "<img class = 'emoji' src = 'img/Sheev.gif' />"
     }else if (chatStr == ":("){
         chatStr = "<img class = 'emoji' src = 'img/sheev4.jpg' />"
     }*/
